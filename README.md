@@ -23,7 +23,7 @@ English | [简体中文](./README-zh.md)
 ```bash
 # clone the project
 git clone https://github.com/PanJiaChen/vue-admin-template.git
-
+# 我UIDAU单
 # enter the project directory
 cd vue-admin-template
 
