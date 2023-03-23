@@ -1,5 +1,4 @@
 import request from '@/utils/request'
-
 export function login(data) {
   return request({
     url: '/sys/login',
@@ -15,5 +14,10 @@ export function getUserInfo() {
   })
 }// 导出请求方法
 
+export function getUserDetailById(id) {
+  return request({
+    url: `/sys/user/${id}`
+  })
+}
 export function logout() {
 }

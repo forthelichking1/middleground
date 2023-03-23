@@ -8,7 +8,7 @@ const service = axios.create({
 }) // 创建一个axios的实例
 service.interceptors.request.use(config => {
   if (store.getters.token) {
-    config.headers['Authorization'] = 'Bearer${store.getters.token}'
+    config.headers['Authorization'] = `Bearer ${store.getters.token}`
   }
   return config
 },
